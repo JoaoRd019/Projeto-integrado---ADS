@@ -1,4 +1,4 @@
-# sistema de gestao de clientes
+# sistema de gestao de pacientes
 # classe paciente
 class Paciente:
     def __init__(self, nome, idade, telefone):
