@@ -21,3 +21,7 @@ O sistema deverá permitir:
 • Registro de atendimentos, com histórico de evolução por paciente;
 
 • Geração de relatórios mensais para a administração;
+
+Com base na história da Clínica Vida+, você deverá aplicar os conhecimentos adquiridos nas diferentes
+disciplinas para propor soluções que atendam às necessidades do cenário apresentado. A partir da situaçãoproblema, serão desenvolvidas atividades específicas que envolvem análise, planejamento, modelagem e
+implementação de soluções voltadas à área de tecnologia da informação.
