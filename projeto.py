@@ -16,7 +16,10 @@ pacientes = []
 def cadastrar_pacientes():
     print("\n--Cadastro de Pacientes--")
     nome = input("Nome: ")
-    idade = int(input("Idade: "))
+        try:
+        idade = int(input("Idade: "))
+    except ValueError :
+        print("Erro: Entrada inválida! Por favor, digite um número.")
     telefone = input("Telefone: ")
     pacientes.append(Paciente(nome, idade, telefone))
 
