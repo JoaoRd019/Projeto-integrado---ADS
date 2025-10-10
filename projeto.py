@@ -46,7 +46,7 @@ def ver_estatisticas():
 
 def buscar_paciente():
     print("\n-- Buscar Paciente --")
-    nome = input("Digite o nome do paciente: ")
+    nome = input("Digite o nome do paciente: ").lower()
     encontrado = False
     for paciente in pacientes:
         if paciente.nome == nome:
