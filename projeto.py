@@ -15,11 +15,14 @@ pacientes = []
 # funcoes para cadastrar/ ver estatisticas/ buscar pacientes / listar pacientes
 def cadastrar_pacientes():
     print("\n--Cadastro de Pacientes--")
-    nome = input("Nome: ")
-        try:
-        idade = int(input("Idade: "))
+    nome = input("Nome: ").lower()
+    try:
+         idade = int(input("Idade: "))
     except ValueError :
-        print("Erro: Entrada inválida! Por favor, digite um número.")
+        while True:
+         print("Erro: Entrada inválida! Por favor, digite um número.")
+         idade = int(input("Idade: "))
+         break
     telefone = input("Telefone: ")
     pacientes.append(Paciente(nome, idade, telefone))
 
